@@ -1,0 +1,9 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-caption{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
