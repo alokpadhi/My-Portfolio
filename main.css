@@ -1,3 +1,4 @@
+
 img{
     max-width: 100%;
     height: auto;
@@ -6,4 +7,11 @@ img{
     position: relative;
     top: 50%;
     transform: translateY(-50%); 
+}
+#intro{
+    font-family: 'Rakkas';
+    font-size: 22px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
 }
