@@ -6,12 +6,9 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -26,8 +23,11 @@
                         <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>    
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
@@ -89,6 +89,7 @@
 
         <div id="about">
             <h1 style="text-align: center;">About Me</h1>
+            <br>
             <p id="intro">Meet Me!!!I am Alok Kumar Padhi.A person who has immense love and passion
                 for machine learning, AI stuff and working on web. What makes me crazy ?Coding, cooking,
                 travelling and learning new things everyday.
@@ -97,44 +98,67 @@
                 Want to know me better, then meet me. I would love to meet new people and make friends.
             </p>
         </div>
+        <div id="skills">
+            <h1 style="text-align: center;">Skills</h1>
+            <div class="flex-container">
+                <div>Python</div>
+                <div>Javascript</div>
+                <div>Bootstrap</div>
+                <div>Scikit-Learn</div>
+                <div>Pandas</div>
+                <div>Django</div>
+                <div>Matplotlib</div>
+                <div>jQuery</div>
+                <div>REST API</div>
+                <div>HTML5</div>
+                <div>CSS3</div>
+                <div>C</div>
+                <div>Oracle Sql</div>
+                <div>Linux</div>
+                <div>VS Code</div>
+                <div>Machine Learning</div>
+                <div>Data Visualization</div>
+                <div>Data Modeling</div>
+                <div>Statistics</div>
+                
+            </div>
+        </div>
 
         <div class="container marketing" id="projects">
             <h1 style="text-align: center;">Projects</h1>
-
+            <br>
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
                     <img class="rounded" src="images/project1.png" alt="alien, ship" width="240" height="240">
                     <h2>AlienInvasion</h2>
-                    <p>A keyboard based game built by using pygame. Built this project
-                        to enhance my skills of python. I have used pycharm community edtion
-                        for this project.
+                    <p>A keyboard based game built by using pygame: Game library for python.
                     </p>
+                    
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/AlienInvasion.git" role="button" target="_blank">View Source Code &raquo;</a></p>
+                    
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="rounded" src="images/project2.png" alt="cloud service web page" width="240" height="240">
                     <h2>Cloud-service</h2>
-                    <p>A web page designed for a cloud service product. This project is a part 
-                        of freecodecamp front end projects. I also did this project during the 
-                        course of challenge 100DaysOfCode.
+                    <p>A web page designed for a cloud service product. A cloud service with decentralized
+                        netowrk.
                     </p>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/Cloud-Service-Product-Webpage.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded" src="images/project3.png" alt="text only" width="240" height="240">
+                    <img class="rounded" src="images/project3.png" alt="text only" width="250" height="250">
                     <h2>BlackJack Game</h2>
                     <p>Come and enjoy the blackjack game. With a simple and elegant UI interface
-                        try your luck in this game. Play the blackjack, but don't get jam.
+                        try your luck in this game.
                     </p>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/BlackJack-Game.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="rounded" src="images/projcet4.png" alt="solar panel" width="240" height="240">
                     <h2>Best Solar</h2>
-                    <p>This is a solar panel calculator to calculate the number of panels 
-                        will require to fulfill your electricity needs by using the past 12months 
-                        electricity consumption power.
+                    <p>solar panel calculator to calculate the number of panels 
+                        will require to fulfill your electricity needs.
                     </p>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/Best-Solar.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
@@ -142,32 +166,61 @@
                     <img class="rounded" src="images/projcet5.png" alt="js docs" width="240" height="240">
                     <h2>JS Documentation</h2>
                     <p>A simple and easy javascript Documentation webpage built for the beginners.
-                        They can come and take reference for the basic javascript. Additionally they
-                        can jump to Mozila Developer Network for deep level of reference through the website.
                     </p>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/Documentation-Page.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="rounded" src="images/projcet6.png" alt="" width="240" height="240">
-                    <h2>Vahaan</h2>
-                    <p>An android application for an e-toll payment system. This is the project me and
-                        my team did in the Granf finale of the Smart India Hackathon 2017.
-                    </p>
-                    <p><a class="btn btn-secondary" href="https://github.com/Silicon-Toll-Project/TestVahaan.git" role="button" target="_blank">View Source Code &raquo;</a></p>
+                <div class="col-lg-4" style="margin-top: 10%;">
+                    <p><a class="btn btn-lg btn-primary active" href="https://github.com/alokpadhi" role="button" target="_blank">See More Projects</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
-            <p><a class="btn btn-lg btn-primary" href="https://github.com/alokpadhi" role="button" target="_blank">See More Projects</a></p>
         </div>
-
+        
         <div id="contact">
             <h1 style="text-align: center;">Contact Me</h1>
-
+            <br>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                  <h4 class="text-uppercase mb-4">Location</h4>
+                  <p class="lead mb-0">760001 Berhampur, Odisha
+                    <br>India</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <div class="wrapper">
+                        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-github"></i></a>
+                        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-linkedin-square"></i></a>
+                        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter"></i>
+                        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-google-plus"></i></a>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">Contact</h4>
+                    <p class="lead mb-0">
+                      <a href="tel:+919337257045"><i class="fa fas fa-phone"></i> +91 9337257045</a>
+                      <br>
+                      <a href="mailto:alokkumarpadhi198@gmail.com"><i class="fa fa-envelope-o"></i> alokkumarpadhi198@gmail.com</a>
+                  </p>
+                </div>
+            </div>
 
-    </footer>
+        </div>
+    </footer>    
     
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Alok Kumar portfolio 2018</small>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
