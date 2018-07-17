@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+    <!--Font google -->
     <link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Menlo' rel='stylesheet'>
+    <!--Bootstrap framework-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -27,7 +30,15 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
-                    </li>    
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Blog</a>
+                        </div>
+                    </li>   
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
@@ -51,8 +62,12 @@
                     <img class="first-slide" src="images/startup-593327_1920.jpg" alt="contains office stuff" draggable="false">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>The Learner</h1>
-                            <h3>Alok Kumar Padhi</h3>
+                            <h1>Make it HAPPEN!!!</h1><br>
+                            <h2>A Learner</h2>
+                            <h3>Alok Kumar Padhi</h3><br>
+                            <h4 style="color: black;">"You're the source for your dream,</h4>
+                            <h4 style="color: black;">your work is the ingridients for your recipe of success,</h4>
+                            <h4 style="color: black;">& your personality is the real taste of life."</h4>
                         </div>
                     </div>
                 </div>
@@ -88,44 +103,70 @@
         </div>
 
         <div id="about">
-            <h1 style="text-align: center;">About Me</h1>
+            <h1 class="line-style"style="text-align: center;">About Me</h1>
             <br>
-            <p id="intro">Meet Me!!!I am Alok Kumar Padhi.A person who has immense love and passion
-                for machine learning, AI stuff and working on web. What makes me crazy ?Coding, cooking,
-                travelling and learning new things everyday.
-                Learning is something I used to do everyday, that's why above all I'm a Learner. Spent
-                some good time on Quora, reddit, twitter and medium.
-                Want to know me better, then meet me. I would love to meet new people and make friends.
+            <p id="intro">Meet Me!!!I am Alok Kumar Padhi. Professionaly a coder who make things easier and
+                personally a friend who is ready to stand beside you always. Life's nature is to hit 
+                you hard but to come strong against these odds is what my traits. Loves to spent time
+                on quora [<i class="fa fa-quora"></i>], reddit[<i class="fa fa-reddit"></i>], 
+                medium [<i class="fa fa-medium"></i>]and twitter [<i class="fa fa-twitter"></i>]...OH Please not facebook [<i class="fa fa-facebook"></i>]. Always ready to get
+                mathematical and lost myself in maths. Currently my working sides are Machine learning,
+                Artificial Intelligence and Web development. What else...OK Then 
+                <ul id="choices">
+                    <li>
+                        Travelling  <i class="fa fa-globe" aria-hidden="true"></i>
+                        <i class="fa fa-plane" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        Cooking/Foodie <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        Books Reading <i class="fa fa-book" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        Music <i class="fa fa-music" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        And Coffee <i class="fa fa-coffee" aria-hidden="true"></i>
+                    </li>
+                </ul>
             </p>
         </div>
         <div id="skills">
-            <h1 style="text-align: center;">Skills</h1>
+            <h1 class="line-style" style="text-align: center;">Skills</h1><br>
             <div class="flex-container">
-                <div>Python</div>
-                <div>Javascript</div>
-                <div>Bootstrap</div>
-                <div>Scikit-Learn</div>
-                <div>Pandas</div>
-                <div>Django</div>
-                <div>Matplotlib</div>
-                <div>jQuery</div>
-                <div>REST API</div>
-                <div>HTML5</div>
-                <div>CSS3</div>
-                <div>C</div>
-                <div>Oracle Sql</div>
-                <div>Linux</div>
-                <div>VS Code</div>
-                <div>Machine Learning</div>
-                <div>Data Visualization</div>
-                <div>Data Modeling</div>
-                <div>Statistics</div>
-                
+                <div id="python" class="circle">
+                    Python
+                </div>
+                <div id="js" class="circle">
+                    JavaScript
+                </div>
+                <div id="bootstrap" class="circle">
+                    BootStrap
+                </div>
+                <div id="jquery" class="circle">
+                    jQuery();
+                </div>
+                <div id="django" class="circle">
+                    Django
+                </div>
+                <div id="sklearn" class="circle">
+                    Scikit-learn
+                </div>
+                <div id="pandas" class="circle">
+                    Pandas
+                </div>
+                <div id="linux" class="circle">
+                    Ubuntu
+                </div>
+                <div id="sql" class="circle">
+                    SQL
+                </div>
             </div>
         </div>
 
         <div class="container marketing" id="projects">
-            <h1 style="text-align: center;">Projects</h1>
+            <h1 class="line-style" style="text-align: center;">Projects</h1>
             <br>
             <!-- Three columns of text below the carousel -->
             <div class="row">
@@ -176,7 +217,7 @@
         </div>
         
         <div id="contact">
-            <h1 style="text-align: center;">Contact Me</h1>
+            <h1 class="line-style" style="text-align: center;">Contact Me</h1>
             <br>
         </div>
     </main>
