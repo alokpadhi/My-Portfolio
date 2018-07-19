@@ -62,12 +62,11 @@
                     <img class="first-slide" src="images/startup-593327_1920.jpg" alt="contains office stuff" draggable="false">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Make it HAPPEN!!!</h1><br>
-                            <h2>A Learner</h2>
-                            <h3>Alok Kumar Padhi</h3><br>
-                            <h4 style="color: black;">"You're the source for your dream,</h4>
-                            <h4 style="color: black;">your work is the ingridients for your recipe of success,</h4>
-                            <h4 style="color: black;">& your personality is the real taste of life."</h4>
+                            <h2 style="font-size:4.5vw;">A Learner</h2>
+                            <h3 style="font-size: 4vw;">Alok Kumar Padhi</h3>
+                            <h4 style="color: black;font-size: 2.6vw;">"You're the source for your dream,</h4>
+                            <h4 style="color: black;font-size: 2.6vw;">your work is the ingridients for your recipe of success,</h4>
+                            <h4 style="color: black;font-size: 2.6vw;">& your personality is the real taste of life."</h4>
                         </div>
                     </div>
                 </div>
@@ -75,9 +74,9 @@
                     <img class="second-slide" src="images/coding.jpg" alt="coding laptop" draggable="false">
                     <div class="container">
                         <div class="carousel-caption text-right">
-                            <h1>Web Developer</h1>
+                            <h1 style="font-size: 5vw">Web Developer</h1>
                             <p></p>
-                            <p><a class="btn btn-lg btn-primary" href="#projects" role="button">See more</a></p>
+                            <p><a class="btn btn-md btn-primary" href="#projects" role="button">See more</a></p>
                         </div>
                     </div>
                 </div>
@@ -85,9 +84,9 @@
                     <img class="third-slide" src="images/home-office-336378_1920.jpg" alt="office stuff" draggable="false">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Machine Learning Enthusiast</h1>
+                            <h1 style="font-size: 2.8vw">Machine Learning Enthusiast</h1>
                             <p></p>
-                            <p><a class="btn btn-lg btn-primary" href="#projects" role="button">Browse Projects</a></p>
+                            <p><a class="btn btn-md btn-primary" href="#projects" role="button">Browse Projects</a></p>
                         </div>
                     </div>
                 </div>
@@ -134,80 +133,96 @@
         </div>
         <div id="skills">
             <h1 class="line-style" style="text-align: center;">Skills</h1><br>
+            <div class="buttoncontainer">
+                <button id="fadeinoutbtn" type="button" class="btn btn-primary">Click to show/hide skills</button>
+                <!--
+                <button id="fadeoutbtn" type="button" class="btn btn-primary">Click to hide my skills</button>
+                -->
+            </div>
             <div class="flex-container">
-                <div id="python" class="circle">
+                <div id="python" class="circle" style="display: none;">
                     Python
                 </div>
-                <div id="js" class="circle">
+                <div id="js" class="circle" style="display: none;">
                     JavaScript
                 </div>
-                <div id="bootstrap" class="circle">
+                <div id="bootstrap" class="circle" style="display: none;">
                     BootStrap
                 </div>
-                <div id="jquery" class="circle">
+                <div id="jquery" class="circle" style="display: none;">
                     jQuery();
                 </div>
-                <div id="django" class="circle">
+                <div id="django" class="circle" style="display: none;">
                     Django
                 </div>
-                <div id="sklearn" class="circle">
+                <div id="sklearn" class="circle" style="display: none;">
                     Scikit-learn
                 </div>
-                <div id="pandas" class="circle">
+                <div id="pandas" class="circle" style="display: none;">
                     Pandas
                 </div>
-                <div id="linux" class="circle">
+                <div id="linux" class="circle" style="display: none;">
                     Ubuntu
                 </div>
-                <div id="sql" class="circle">
+                <div id="sql" class="circle" style="display: none;">
                     SQL
                 </div>
             </div>
         </div>
 
-        <div class="container marketing" id="projects">
+        <div class="container" id="projects">
             <h1 class="line-style" style="text-align: center;">Projects</h1>
             <br>
             <!-- Three columns of text below the carousel -->
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 imgcontain">
                     <img class="rounded" src="images/project1.png" alt="alien, ship" width="240" height="240">
                     <h2>AlienInvasion</h2>
-                    <p>A keyboard based game built by using pygame: Game library for python.
-                    </p>
+                    <div class="overlay">
+                        <div class="text">A keyboard based game built by using pygame: Game library for python.
+                        </div>
+                    </div>
                     
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/AlienInvasion.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                     
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 imgcontain">
                     <img class="rounded" src="images/project2.png" alt="cloud service web page" width="240" height="240">
                     <h2>Cloud-service</h2>
-                    <p>A web page designed for a cloud service product. A cloud service with decentralized
+                    <div class="overlay">
+                        <div class="text">A web page designed for a cloud service product. A cloud service with decentralized
                         netowrk.
-                    </p>
+                        </div>
+                    </div>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/Cloud-Service-Product-Webpage.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 imgcontain">
                     <img class="rounded" src="images/project3.png" alt="text only" width="250" height="250">
                     <h2>BlackJack Game</h2>
-                    <p>Come and enjoy the blackjack game. With a simple and elegant UI interface
+                    <div class="overlay">
+                        <div class="text">Come and enjoy the blackjack game. With a simple and elegant UI interface
                         try your luck in this game.
-                    </p>
+                        </div>
+                    </div>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/BlackJack-Game.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 imgcontain">
                     <img class="rounded" src="images/projcet4.png" alt="solar panel" width="240" height="240">
                     <h2>Best Solar</h2>
-                    <p>solar panel calculator to calculate the number of panels 
+                    <div class="overlay">
+                        <div class="text">solar panel calculator to calculate the number of panels 
                         will require to fulfill your electricity needs.
-                    </p>
+                        </div>
+                    </div>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/Best-Solar.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 imgcontain">
                     <img class="rounded" src="images/projcet5.png" alt="js docs" width="240" height="240">
                     <h2>JS Documentation</h2>
-                    <p>A simple and easy javascript Documentation webpage built for the beginners.
-                    </p>
+                    <div class="overlay">
+                        <div class="text">A simple and easy javascript Documentation webpage built for the beginners.
+                        </div>
+                    </div>
                     <p><a class="btn btn-secondary" href="https://github.com/alokpadhi/Documentation-Page.git" role="button" target="_blank">View Source Code &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4" style="margin-top: 10%;">
@@ -223,6 +238,7 @@
     </main>
 
     <footer class="footer text-center text-white">
+        <img src="images/mypic.JPG" alt="mypic contains one person" class="avatar">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
@@ -251,17 +267,16 @@
             </div>
 
         </div>
-    </footer>    
-    
+    </footer> 
     <div class="copyright py-4 text-center text-white">
         <div class="container">
             <small>Copyright &copy; Alok Kumar portfolio 2018</small>
         </div>
     </div>
 
-    <script src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
