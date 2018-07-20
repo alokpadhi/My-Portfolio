@@ -1,3 +1,4 @@
+
 $("#fadeinoutbtn").click(function(){
     $("#python").fadeToggle();
     $("#js").fadeToggle("slow");
@@ -19,3 +20,25 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
   }
 }*/
+$(document).bind('keyup', function(e) {
+  if(e.which == 39){
+      $('.carousel').carousel('next');
+  }
+  else if(e.which == 37){
+      $('.carousel').carousel('prev');
+  }
+});
+// Initialize google maps
+function myMap() {
+  var myCenter = new google.maps.LatLng(19.319352,84.795025);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+
+//google translator
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
