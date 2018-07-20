@@ -1,4 +1,4 @@
-@import "compass/css3";
+
 img{
     max-width: 100%;
     height: auto;
@@ -21,6 +21,7 @@ body {
   .wrapper {
     display: inline-flex;
     justify-content: center;
+    margin-top: 5%;
   }
   .wrapper i {
     padding: 10px;
@@ -134,16 +135,23 @@ footer{
   text-align: center;
 }
 .avatar{
-  vertical-align: left;
-  margin-top: 0.5%;
+  margin-top: 30%;
   width: 160px;
   height: 160px;
   border: 5px double whitesmoke;
   border-radius: 20%;
-  float: left;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+}
+.cont{
+  margin-top: 15%;
+}
+#translator{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
 }
