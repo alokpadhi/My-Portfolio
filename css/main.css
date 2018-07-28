@@ -155,3 +155,12 @@ footer{
   right: 0;
 
 }
+.doc{
+  text-align: center;
+  display: inline;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+.fa-cog{
+  color: #B20000;
+}
